@@ -1,6 +1,6 @@
 :: Ниже небольшой костыль, который запускает наш bat файл от имени администратора
 :: За предоставленный код запуска от имени администратора спасибо Skymmer
-:: v 1.2.0
+:: v 1.3.0
 
 @Echo Off
 :: Для начала проверим, а не работаем ли мы от имени администратора?
@@ -29,7 +29,7 @@ type nul > "%~dp0Install_EFT\BattlEye\BEClient_x64.dll"
 type nul > "%~dp0Install_EFT\BattlEye\BEService_x64.exe"
 type nul > "%~dp0Install_EFT\ConsistencyInfo"
 type nul > "%~dp0Install_EFT\EscapeFromTarkov_BE.exe"
-type nul > "%~dp0Install_EFT\Uninstall.exe"
+type nul > "%~dp0Install_EFT\UnityPlayer.dll"
 type nul > "%~dp0Install_EFT\UnityCrashHandler64.exe"
 type nul > "%~dp0Install_EFT\WinPixEventRuntime.dll"
 
